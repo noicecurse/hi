@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "hi"
+  description: "hi"  
+  annotations:
+    github.com/project-slug: noicecurse/hi
+spec:
+  type: service
+  owner: "guests"
+  lifecycle: experimental
